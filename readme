@@ -1,4 +1,4 @@
-**<h1>2.1 Neural Network Hyperparameters<h1>**
+# Neural Network Hyperparameters
 • Describe the methods you used for your experiment. This should include a discussion of the dataset (e.g., source? number of examples?) and what parameters were used to train all the models.
 – The Data set is sklearn load digits dataset. The Dataset is 2d matrix datasets of pixel bitmaps of handwritten numbers in the range [0-9]. Each datapoint is a 8x8 image of a digit. The data set contains images of hand written digits, which is 10 classes where each class refers to a digit. 32 × 32 bitmaps are divided blocks of 4 × 4 and number of ON pixels are counted in each block. This generates a matrix of [8 × 8] where each element is in range [0....16].
 ∗ Classes 10
